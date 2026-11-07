@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/e516dc0b-e776-4ade-a18e-55334b4edabd
 # script2comic
 
 Turn a finished screenplay into a motion comic you can watch: every line spoken by a distinct
@@ -8,7 +10,12 @@ It is pre-vis, pitch and table-read tooling. It is not the film.
 
 ![The Last Ferry, the example project: eleven frames for a two-page scene](docs/example-sheet.png)
 
-**Watch the finished example before running anything:** [download the-last-ferry-720p.mp4](https://raw.githubusercontent.com/manosamy/script2comic/main/docs/the-last-ferry-720p.mp4) (105 seconds, 9 MB).
+**Watch the finished example before running anything:** 
+
+
+https://github.com/user-attachments/assets/74139cda-fd09-446d-af43-3b1ccb1ad01b
+
+(105 seconds, 9 MB).
 
 The problem it solves: nobody reads a stranger's feature script, and a trailer cut from stock
 proves nothing about the story. A three-hour, 64-part feature went through this pipeline for
