@@ -1,0 +1,36 @@
+# secrets
+.env
+**/.env
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# a project's generated binaries: voice clips, frames, rendered clips, finished videos
+cache/
+out/
+music/*.mp3
+music/*.wav
+sfx/*.mp3
+sfx/*.wav
+
+# ... except the example, which ships its voice clips, timeline and picked frames so the
+# assembly step runs without any API key (the finished video itself is not committed)
+!example/cache/
+!example/cache/**
+!example/out/
+example/out/*.mp4
+example/out/*.srt
+example/cache/board/*/clips/
+example/cache/board/*/rejected/
+example/cache/board/*/_sheet*.png
+example/cache/board/refs.json
+example/cache/voices/_concat_*.txt

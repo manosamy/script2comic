@@ -1,0 +1,21 @@
+# Character references for `s2c board gen`. A frame lists names under `refs:`; each name sends its
+# plate(s) to the image model as identity references, with `desc` telling the model who is who.
+#
+# Rules that cost re-rolls to learn:
+# - ONE front plate per person. A turnaround sheet makes the model draw the person twice.
+# - Put the wardrobe in the desc. For a period story the plates are modern photos and they win
+#   unless the text says otherwise, in every frame.
+# - A plate can be a photo of an actor, a generated portrait, or an ink drawing you approved: the
+#   plates here were drawn by the model itself from the desc alone (no refs, the board's `anchor`
+#   as the style reference) and then used as plates for every frame after.
+# - `place: true` marks a location plate: redrawn as architecture, never as a person.
+characters:
+  mira:
+    files: [mira.png]
+    desc: "MIRA: a woman in her 30s, the harbor master's deputy; dark hair tied back, a wool sweater with the sleeves rolled, a lanyard with keys; tired, exact"
+  kofi:
+    files: [kofi.png]
+    desc: "KOFI: a ferry captain in his 50s, broad, a short gray beard, yellow oilskins soaked black with rain, a wool cap"
+  teo:
+    files: [teo.png]
+    desc: "TEO: a small boy of six, wet dark curls, wrapped in a gray harbor blanket far too big for him, bare knees"

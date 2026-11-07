@@ -1,0 +1,43 @@
+{
+  "_readme": [
+    "Voice casting for `s2c voices`. Every speaking character maps to an ElevenLabs voice_id.",
+    "The voices below are ElevenLabs premade voices, present in every account.",
+    "Fields: voice_id, name (label only), public_owner_id (to auto-add a Voice Library voice the first time),",
+    "model / settings (override the defaults), pitch_semitones (ffmpeg pitch shift: younger selves, copies),",
+    "tempo (0.85 = 15% slower, pitch kept), fx (radio | offscreen | ethereal | abyss | distant),",
+    "alias (inherit another character's voice and override some fields).",
+    "Characters found in the script but missing here are assigned an unused voice from `pool` and written back.",
+    "defaults.speak_int_ext: false reads 'INT. HARBOR OFFICE - NIGHT' as 'Harbor Office. Night.'",
+    "defaults.cue_aliases folds spellings a draft drifted through, e.g. {\"YOUNGER MIRA\": \"YOUNG MIRA\"}."
+  ],
+  "defaults": {
+    "dialogue_model": "eleven_v4",
+    "dialogue_settings": {"stability": 0.5, "similarity_boost": 0.8},
+    "narration_model": "eleven_v4",
+    "narration_settings": {"stability": 0.5, "similarity_boost": 0.75},
+    "speak_int_ext": false,
+    "cue_aliases": {}
+  },
+  "characters": {
+    "NARRATOR": {"voice_id": "JBFqnCBsd6RMkjVDRZzb", "name": "George - Warm, Captivating Storyteller (premade)", "tempo": 0.97},
+    "MIRA": {"voice_id": "EXAVITQu4vr4xnSDxMaL", "name": "Sarah - Mature, Reassuring, Confident (premade)"},
+    "KOFI": {"voice_id": "nPczCjzI2devNBz1zQrb", "name": "Brian - Deep, Resonant and Comforting (premade)"},
+    "TEO": {"voice_id": "bIHbv24MWmeRgasZH58o", "name": "Will - Relaxed Optimist (premade)", "pitch_semitones": 4,
+            "note": "a six-year-old: a light adult voice pitched up four semitones"},
+    "RADIO VOICE": {"voice_id": "CwhRBWXzGAHq8TQ4Fs17", "name": "Roger - Laid-Back, Resonant (premade)", "fx": "radio"}
+  },
+  "pool": [
+    {"voice_id": "IKne3meq5aSn9XLyUdCD", "name": "Charlie - Deep, Confident, Energetic (premade)"},
+    {"voice_id": "cgSgspJ2msm6clMCkdW9", "name": "Jessica - Playful, Bright, Warm (premade)"},
+    {"voice_id": "TX3LPaxmHKxFdv7VOQHJ", "name": "Liam - Energetic (premade)"},
+    {"voice_id": "FGY2WhTYpPnrIDTdsKH5", "name": "Laura - Enthusiast, Quirky Attitude (premade)"},
+    {"voice_id": "iP95p4xoKVk53GoZ742B", "name": "Chris - Charming, Down-to-Earth (premade)"},
+    {"voice_id": "onwK4e9ZLuTAKqWW03F9", "name": "Daniel - Steady Broadcaster (premade)"},
+    {"voice_id": "XrExE9yKIg1WjnnlVkGX", "name": "Matilda - Knowledgable, Professional (premade)"},
+    {"voice_id": "pFZP5JQG7iQjIQuC4Bku", "name": "Lily - Velvety Actress (premade)"},
+    {"voice_id": "N2lVS1w4EtoT3dr4eOWO", "name": "Callum - Husky Trickster (premade)"},
+    {"voice_id": "pqHfZKP75CvOlQylNhV4", "name": "Bill - Wise, Mature, Balanced (premade)"},
+    {"voice_id": "cjVigY5qzO86Huf0OWal", "name": "Eric - Smooth, Trustworthy (premade)"},
+    {"voice_id": "SAz9YHcvj6GT2YYXdXww", "name": "River - Relaxed, Neutral (premade)"}
+  ]
+}

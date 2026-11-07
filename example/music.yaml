@@ -1,0 +1,17 @@
+# Background music for `s2c board assemble`. Themes are short instrumental loops generated once by
+# `s2c music` (ElevenLabs Music); cues place them by scene range. Anything not covered by a cue is
+# silent on purpose. Themes are normalised to -20 LUFS; `gain_db` is applied on top; the bed is then
+# ducked under every voice line by the mixer.
+#
+# The example ships without generated themes: `s2c music` writes music/<theme>.wav, then uncomment
+# the cue. Until then, assemble with --no-music or leave `cues` empty.
+themes:
+  harbor:
+    length_s: 60
+    model: music_v2
+    prompt: >-
+      Slow, sparse, tender underscore for a rainy harbor at night: a soft felt piano playing a few
+      slow notes with long pauses, a faint warm string pad underneath, distant rain. No drums,
+      no vocals, no melody hook, quiet, loops seamlessly.
+cues: []
+#  - {theme: harbor, scenes: [1, 2], gain_db: -10, fade_in: 3, fade_out: 4}

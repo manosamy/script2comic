@@ -1,0 +1,134 @@
+id: ferry
+output: the-last-ferry
+title: The Last Ferry (scenes 1-2)
+description: 'One frame per visual beat. `at` is the first words of the narration line the
+  frame appears on (a text prefix matched against the narrated cut''s timeline; never a timestamp).
+  `scene` disambiguates repeated headings. `focus` is the single accent-color element in an
+  otherwise ink-only panel and the target of the push-in. `refs` name entries in refs.yaml.
+  Optional per frame: `offset` (seconds into a long line), `still: true` (no push-in), `multi:
+  true` (copies of a character are wanted), `tint: <name>` (from style.yaml), `text: "..."`
+  (the only lettering allowed), `turn: dissolve|cut`, `center: [x, y]`, `post: {clock: "11:52"}`
+  (redraw the clock hands), `pick: <file>` (set by sheet review / fix).
+
+  '
+scenes:
+- 1
+- 2
+anchor: F01b-nb21d-1.png
+frames:
+- id: F01a
+  at: Harbor Office. Night.
+  scene: 1
+  refs: []
+  shot: wide, eye level, from the doorway
+  focus: the wall clock's face (warm amber)
+  prompt: A cramped harbor office at night, up a stair above a pier. Rain streaks the window.
+    A desk piled with ledgers, a lamp, a wall clock reading 11:52, a wall phone, a yellow
+    oilskin on a hook. The room is EMPTY, with no people anywhere in the panel.
+  post:
+    clock: '11:52'
+    cx: 519
+    cy: 178
+    r: 56
+  pick: F01a-nb21d-2-clock.png
+- id: F01b
+  at: Mira (30s, the harbor master's deputy
+  scene: 1
+  refs:
+  - mira
+  shot: medium, over the desk
+  focus: the ink stamp in her hand (red)
+  prompt: MIRA stamps a thick ledger shut with a rubber stamp and reaches with her other hand
+    for the light switch on the wall. Rain on the window behind her.
+- id: F01c
+  at: The door bangs open.
+  scene: 1
+  refs:
+  - kofi
+  shot: low angle from the desk, the door filling the frame
+  focus: the rain glistening on his oilskins (cold blue)
+  prompt: The office door thrown open. KOFI fills the doorway, soaked oilskins streaming,
+    wool cap, rain blowing in behind him from the dark.
+- id: F01d
+  at: He drops a child's red mitten
+  scene: 1
+  refs:
+  - kofi
+  - mira
+  shot: close on the desk, two figures soft at the edges of the frame
+  focus: the small wet mitten (red)
+  prompt: A child's small wet mitten dropped onto the open ledger on the desk, a puddle spreading
+    from it. Kofi's wet hand withdrawing; Mira's hand frozen above the stamp.
+- id: F01e
+  at: A phone on the wall starts to ring.
+  scene: 1
+  refs:
+  - mira
+  - kofi
+  shot: medium-wide, the two of them and the phone on the wall between them
+  focus: the ringing wall phone (red)
+  prompt: An old wall phone ringing in the cramped office. Mira at the desk and Kofi inside
+    the door, both looking at it, neither moving. The mitten on the desk between them.
+- id: F01f
+  at: Mira looks at the mitten.
+  scene: 1
+  refs:
+  - mira
+  shot: close-up on her face, the clock soft behind her
+  focus: the clock reading 11:53 (warm amber)
+  prompt: Mira's face, close, her eyes down on the mitten, then lifting to the wall clock
+    behind her, which reads 11:53.
+  post:
+    clock: '11:53'
+    cx: 597
+    cy: 186
+    r: 46
+  pick: F01f-nb21d-1-clock.png
+- id: F02a
+  at: Pier Nine. Night.
+  scene: 2
+  refs:
+  - teo
+  shot: wide, high angle down the length of the pier
+  focus: the floodlight cones in the rain (warm amber)
+  prompt: A long wooden pier at night in heavy rain, floodlights on tall poles throwing cones
+    of light. At the far end, tiny, a small boy sits on a bollard wrapped in a blanket.
+  tint: storm
+- id: F02b
+  at: Rain in the floodlights. A small boy
+  scene: 2
+  refs:
+  - teo
+  shot: medium, eye level with the boy
+  focus: the one red mitten he holds
+  prompt: TEO, six, sits on an iron bollard wrapped in a gray blanket far too big for him,
+    rain in his curls, holding up one small mitten in both hands.
+- id: F02b2
+  at: Mira runs the length of the pier.
+  scene: 2
+  refs:
+  - mira
+  - kofi
+  shot: wide, low, down the wet boards of the pier
+  focus: the floodlight cones in the rain (warm amber)
+  prompt: Mira running the length of the long pier through the rain toward the small figure
+    at the far end, Kofi following slower behind her, floodlights overhead.
+- id: F02c
+  at: She presses the wet mitten into his hand.
+  scene: 2
+  refs:
+  - mira
+  - teo
+  shot: close two-shot, Mira kneeling at his level
+  focus: both red mittens
+  prompt: Mira kneels on the wet pier in front of Teo and presses the wet mitten into his
+    hand. He now has both mittens on and holds them up solemnly to the floodlight.
+- id: F02d
+  at: Kofi laughs, once
+  scene: 2
+  refs:
+  - kofi
+  shot: medium, from behind Mira and Teo, Kofi facing them with the ferry behind
+  focus: the ferry's cabin lights (warm amber)
+  prompt: Kofi laughing, head back, rain running off his cap, one arm thrown toward the small
+    ferry moored behind him, its cabin windows lit.

@@ -1,0 +1,8 @@
+requests>=2.32
+PyYAML>=6.0
+Pillow>=10.0
+numpy>=1.26
+# clock-hand redraw (`s2c board fix`) only:
+opencv-python-headless>=4.9
+# free narration with `s2c voices --narrator edge` only:
+# edge-tts>=6.1

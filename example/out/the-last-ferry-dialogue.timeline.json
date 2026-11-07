@@ -1,0 +1,102 @@
+[
+{
+"start": 0.0,
+"end": 1.402,
+"kind": "dialogue",
+"speaker": "KOFI",
+"scene": 1,
+"line": 14,
+"heading": null,
+"text": "Don't turn that off."
+},
+{
+"start": 1.802,
+"end": 4.842,
+"kind": "dialogue",
+"speaker": "MIRA",
+"scene": 1,
+"line": 17,
+"heading": null,
+"text": "Last boat left at eleven. You were on it."
+},
+{
+"start": 5.242,
+"end": 6.486,
+"kind": "dialogue",
+"speaker": "KOFI",
+"scene": 1,
+"line": 20,
+"heading": null,
+"text": "... I turned her around."
+},
+{
+"start": 6.886,
+"end": 8.575,
+"kind": "dialogue",
+"speaker": "MIRA",
+"scene": 1,
+"line": 26,
+"heading": null,
+"text": "Where did you find that?"
+},
+{
+"start": 8.975,
+"end": 12.242,
+"kind": "dialogue",
+"speaker": "KOFI",
+"scene": 1,
+"line": 30,
+"heading": null,
+"text": "Floating. Two hundred yards off the point."
+},
+{
+"start": 12.642,
+"end": 17.547,
+"kind": "dialogue",
+"speaker": "RADIO VOICE",
+"scene": 1,
+"line": 35,
+"heading": null,
+"text": "Harbor office, this is Pier Nine. We have a boy here asking for his mother."
+},
+{
+"start": 19.357,
+"end": 20.679,
+"kind": "dialogue",
+"speaker": "TEO",
+"scene": 2,
+"line": 47,
+"heading": null,
+"text": "Did you find the other one?"
+},
+{
+"start": 21.079,
+"end": 21.982,
+"kind": "dialogue",
+"speaker": "MIRA",
+"scene": 2,
+"line": 50,
+"heading": null,
+"text": "We did."
+},
+{
+"start": 22.382,
+"end": 23.801,
+"kind": "dialogue",
+"speaker": "TEO",
+"scene": 2,
+"line": 56,
+"heading": null,
+"text": "Now we can go."
+},
+{
+"start": 24.201,
+"end": 26.706,
+"kind": "dialogue",
+"speaker": "KOFI",
+"scene": 2,
+"line": 61,
+"heading": null,
+"text": "Last ferry. All aboard."
+}
+]

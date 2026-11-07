@@ -1,0 +1,20 @@
+# Prompt blocks for `s2c board gen`. Every key is optional; what is missing falls back to the
+# defaults in board.py. The prompt for a frame is assembled as
+#   style + once_rule (unless multi: true) + tints[<tint>] + REFERENCES + SCENE + SHOT + ACCENT + no_text
+style: >-
+  Hand-drawn black ink line art in the style of a graphic-novel storyboard panel: clean confident
+  pen linework, sparse cross-hatching for shadow, a light gray ink wash for depth, white paper
+  texture. The image is MONOCHROME ink except for ONE accent color, used only on the focal element
+  described below. Widescreen 16:9 composition.
+once_rule: >-
+  Each named character appears exactly ONCE in the panel; never duplicate a figure. A single
+  reference photo per character shows one person, not several.
+anchor_note: >-
+  The LAST reference image is the STYLE ANCHOR: match its ink line weight, hatching, paper and
+  overall look exactly so every panel reads as the same artist's hand.
+no_text: No text, letters, numbers, captions, speech bubbles, logos or watermarks anywhere.
+# Named washes a frame can switch on with `tint: <name>`: a dream, a memory, a different world.
+tints:
+  storm: >-
+    This panel is seen through rain on glass: lay a translucent cold blue-gray wash over the whole
+    monochrome drawing, with faint streaks of water. The accent color must still read through it.

@@ -1,0 +1,12 @@
+[
+ {
+  "_readme": "Performance directions for lines that carry no parenthetical in the script. `match` is the start (>=12 chars) or whole of the dialogue line as parsed; `tags` are Eleven v4 audio tags prefixed to the line (v4 also follows compound tags like [low, gravelly voice] and explicit [pause] / [long pause]); `text` replaces the whole line (inline tags, added pauses); `fx` = radio | offscreen | ethereal | abyss | distant. Optional `scene` or `after` (a substring of the preceding action) disambiguate a line that recurs. Stale entries are reported on every run; `s2c voices --rematch-directions preview` re-points them after a rewrite.",
+  "character": "_",
+  "match": "_"
+ },
+ {"character": "KOFI", "match": "... I turned her around.", "tags": "[low, tired]", "_note": "the (beat) parenthetical is parsed as a leading '...', so the match includes it"},
+ {"character": "KOFI", "match": "Floating. Two hundred yards off the point.", "text": "[flat] Floating. [pause] Two hundred yards off the point."},
+ {"character": "TEO", "match": "Did you find the other one?", "tags": "[curious]"},
+ {"character": "TEO", "match": "Now we can go.", "tags": "[excited]"},
+ {"character": "KOFI", "match": "Last ferry. All aboard.", "tags": "[warmly]"}
+]

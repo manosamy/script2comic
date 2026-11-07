@@ -1,0 +1,17 @@
+# Sound effects for `s2c board assemble`. Effects are generated once by `s2c sfx` (ElevenLabs Sound
+# Effects); cues anchor them to a narration line (`at` = start of the line's text, optional `scene`)
+# with `offset` seconds into the line. `until` (another line's start) makes an ambience run to that
+# line; `loop: true` repeats the file. Effects are peak-normalised to -3 dBFS; `gain_db` sets the mix
+# level (events about -6..-12, ambiences about -16..-22). Not ducked under the voice: keep gains modest.
+#
+# The example ships without generated effects: `s2c sfx` writes sfx/<id>.wav, then uncomment the cues.
+effects:
+  rain_window: {loop: true, duration_s: 12, prompt: "Steady rain against a window pane in a small quiet room, a distant harbor bell."}
+  door_bang: {duration_s: 2, prompt: "A wooden door thrown open hard against a wall, wind and rain rushing in."}
+  phone_ring: {duration_s: 6, prompt: "An old wall-mounted telephone ringing in a small office, four rings."}
+  rain_pier: {loop: true, duration_s: 12, prompt: "Heavy rain on a wooden pier at night, water lapping at pilings, wind."}
+cues: []
+#  - {at: "A cramped office above the pier.", fx: rain_window, loop: true, until: "Pier Nine. Night.", gain_db: -20, fade_in: 2, fade_out: 2}
+#  - {at: "The door bangs open.", fx: door_bang, gain_db: -8}
+#  - {at: "A phone on the wall starts to ring.", fx: phone_ring, offset: 0.3, gain_db: -10}
+#  - {at: "Rain in the floodlights.", fx: rain_pier, loop: true, until: "Kofi laughs, once", gain_db: -18, fade_in: 2, fade_out: 3}
