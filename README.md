@@ -8,7 +8,7 @@ It is pre-vis, pitch and table-read tooling. It is not the film.
 
 ![The Last Ferry, the example project: eleven frames for a two-page scene](docs/example-sheet.png)
 
-**Watch the finished example before running anything:** [the-last-ferry-720p.mp4](docs/the-last-ferry-720p.mp4) (105 seconds, 10 MB; GitHub plays it in the browser).
+**Watch the finished example before running anything:** [the-last-ferry-720p.mp4](https://raw.githubusercontent.com/manosamy/script2comic/main/docs/the-last-ferry-720p.mp4) (105 seconds, 10 MB; opens in the browser's player).
 
 The problem it solves: nobody reads a stranger's feature script, and a trailer cut from stock
 proves nothing about the story. A three-hour, 64-part feature went through this pipeline for
