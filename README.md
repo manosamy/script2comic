@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/e516dc0b-e776-4ade-a18e-55334b4edabd
 # script2comic
 
 Turn a finished screenplay into a motion comic you can watch: every line spoken by a distinct
